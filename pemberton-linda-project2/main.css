@@ -1,0 +1,117 @@
+
+
+body {
+		
+		background-color: #20b2aa;
+		font-family: Gruppo, Arial, sans-serif;
+		
+		
+}
+header	{
+		font-family: PT-Serif, serif, Droid-serif;
+		background-color: #6495ed;
+		
+}
+
+#nav	{
+		text-align: center;
+		width: 400px;
+		height: 80px;
+		list-style: upper-roman;
+		
+}
+#nav li	{
+		float: left;
+		
+}
+
+nav a {
+		
+		border-top: 4px;
+		border-bottom: 4px;
+		background-color: #FFF8DC;
+
+		
+		
+}
+
+
+a:link	{
+		color: #23004C;
+		text-decoration: none;
+}
+
+a:visited {
+		color: #080;
+}
+
+a:hover {
+		color: #0CD;
+		text-decoration: underline;
+}
+
+a:active {
+		color: #000;
+		text-decoration: none;
+}		
+				
+#header {
+		margin: 12px auto;
+		padding: 12px;
+}
+
+h1	{
+	margin:	0 auto;
+	color:	#008080;
+	font: 6em Gruppo, sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+}
+
+#rest	{
+	width:	980px;
+	height: 1.0em;
+	margin: 0 auto;
+	background-color: FFF8DC;
+	border: 10px;
+	box-shadow: 10px 10px 25px #FFF;
+}
+
+h2	{
+	margin: 0 auto;
+	font-family: PT-Serif, serif, Droid-serif;
+}
+		
+h3, h4 {
+	font-family: Gruppo, Arial, sans-serif;
+	font: bold;
+	margin: 10px 10px 10px 10px;
+}
+	
+p	{
+	font:	.75em;
+	margin: 0 auto;
+	
+#blockquote	{
+	font-size: .9em;
+	font-style: italic;
+	padding: 10px 20px 10px 20px;
+	border: solid #654;
+	float: center;
+}
+	
+#footer {
+	color: #000;
+	margin: 10px;
+	font: italic 1.25em;
+	text-align: center;
+}
+
+figure img {
+	margin-left: .50em;
+	border: 6px solid #000;
+}
+
+figure a img: hover {
+	border: 6px solid #23004C;
+}
