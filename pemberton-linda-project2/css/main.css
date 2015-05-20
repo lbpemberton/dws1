@@ -52,6 +52,7 @@ header	{
 		background-color: 8AD9FF;	
 		border-radius:8px #000;
 		
+		
 				
 		
 }
@@ -93,10 +94,11 @@ a:active {
 }
 
 h1	{
-	margin:	10px 20px 10px 20px;
+	width: 300px;
 	color:	6f6;
 	font: 6em Gruppo, sans-serif;
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	text-shadow: 4px 4px 4px #000;  
 }
 
@@ -109,17 +111,18 @@ h1	{
 	box-shadow: 10px 10px 25px #FFF;
 }
 
-h2	{
-	margin: 10px;
+#desc	{
+	width: 300px;
+	text-align: center;
 	font-family: 'myFont';
 	color: #000; 	
 }
 
 
-#description {
-
-	margin: 10px;
-	padding: 10px 20px 10px 20px;
+p#description {
+	width: 300px;
+	margin: 75em;
+	
 }
 		
 h3, h4 {
@@ -149,11 +152,18 @@ p	{
 	text-align: right;
 }
 
-figure img {
+figure {
 	margin-left: 10px;
-	border: 6px solid #000;
+	border: 10px solid #0f0;
 }
 
-figure img: hover {
-	border: 6px solid #23004C;
+figure: hover {
+	border: 15px solid #23004C;
+}
+
+figcaption{
+	width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
 }
