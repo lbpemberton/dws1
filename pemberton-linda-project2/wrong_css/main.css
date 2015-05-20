@@ -2,29 +2,6 @@ body{
 		background-color: #D2B48C;
 }
 
-a:link  {
-	color: #OOO;
-	text-decoration: none;
-}
-
-a:visited {
-	color: #080;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #00008b;
-	text-decoration: underline;
-}
-
-a:active {
-	color: #f6c;
-	text-decoration: none;
-}
-
-
-
-
 @font-face{
 		font-famiy: 'myFont';
 		src: url(sansation_bold.woff);
@@ -53,7 +30,7 @@ body {
 		background-color: #f0f8ff; 
 		padding: 14px;
 		padding-top:4px;
-		border-radius: 15px;
+		
 
 }
 
@@ -71,9 +48,10 @@ header	{
 		font-family: Tahoma,Geneva, sans-serif;
 		font-weight: bold;
 		text-align: center;
-		text-shadow: 3px 2px 2px #fff;
+		text-shadow: 3px 2px 2px #FFO;
 		background-color: 8AD9FF;	
 		border-radius:8px #000;
+		
 		
 				
 		
@@ -86,7 +64,25 @@ ul {
 
 
 
-		
+a: active	{
+	color: #OOO;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #080;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #00008b;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #f6c;
+	text-decoration: none;
+}		
 				
 #header {
 	margin: 30px auto;
@@ -98,10 +94,11 @@ ul {
 }
 
 h1	{
-	margin:	10px 20px 10px 20px;
+	width: 300px;
 	color:	6f6;
 	font: 6em Gruppo, sans-serif;
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	text-shadow: 4px 4px 4px #000;  
 }
 
@@ -114,17 +111,18 @@ h1	{
 	box-shadow: 10px 10px 25px #FFF;
 }
 
-h2	{
-	margin: 10px;
+#desc	{
+	
+	text-align: center;
 	font-family: 'myFont';
 	color: #000; 	
 }
 
 
-#description {
-
-	margin: 10px;
-	padding: 10px 20px 10px 20px;
+p#description {
+	width: 300px;
+	margin: 75em;
+	
 }
 		
 h3, h4 {
@@ -154,11 +152,18 @@ p	{
 	text-align: right;
 }
 
-figure img {
+figure {
 	margin-left: 10px;
-	border: 8px solid #0f0;
+	border: 10px solid #0f0;
 }
 
-figure img: hover {
-	border: 6px solid #23004C;
+figure: hover {
+	border: 15px solid #23004C;
+}
+
+figcaption{
+	width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
 }
