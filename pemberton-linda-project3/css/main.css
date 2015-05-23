@@ -1,0 +1,225 @@
+
+a:link  {
+	color: #f00;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00f;
+	
+}
+
+a:hover {
+	color: #00008b;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #f0f;
+	text-decoration: none;
+}
+
+
+
+body {
+		
+		background: url("../images/sand-blossom.gif");
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		min-width: 10%;
+		max-width: 95%;
+		margin: 0;
+		padding: 5% 5% 5% 0%;
+		
+}
+
+
+#main	{
+		font-family: Arial, Helvetica, sans-serif;
+		width: 100%;
+		height: 115%;
+		margin: 3% 2% 2% 2%;
+		background-color: #e0ffff; 
+		border-radius: 5%;
+
+}
+
+
+#header	{
+		font-family: 'Source Sans Pro', sans-serif;
+		margin-top: 5%;
+		
+		
+		
+}
+#nav-bar {
+		margin: 2% 3% 2% 2.3%;
+		width: 96%;
+		height: 10%;
+		font-size: 1.0em;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		text-align: center;
+		text-shadow: .25em .25em .25em #fff;
+		background-color: #90ee90;	
+		border-radius: .50em;
+		border: solid #000;
+		border: .25em solid;
+		
+}
+
+
+ul {
+	list-style-type: upper-roman;
+	color: #000;
+}
+
+
+
+		
+				
+#header {
+	margin: 1% auto;
+	padding: 1.5%;
+	border: .250em;
+	
+	
+		
+}
+
+h1	{
+	margin:	3% 2% 3% 2%;
+	color:	#f00;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px 0 #000;
+	border: .250em;
+	
+	
+	
+}
+
+	
+
+#rest	{
+	width:	40%;
+	height: 10%;
+	margin: 2%;
+	
+	
+}
+ol {
+	background-image: url("../images/fish_green.png");
+	background-repeat: repeat;
+	background-position: left;
+	padding: 10% 5% 5% 5%;
+	background-attachment: fixed;
+	
+}
+
+h2	{
+	margin: 2%;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #000;
+	text-align: center;
+	clear: left;
+	 	
+	
+}
+         
+
+
+#desc {
+	
+	text-align: center;
+	font-weight: bold;
+	padding: 1%;
+	
+	
+}
+		
+h3,h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font: 1.25em;
+	margin: 1%;
+}
+
+#crabs {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-bottom: 2%;
+
+}
+
+#sushi {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+#fare {
+	text-align: center;
+	font-weight: bold;
+	font: 1.50em;
+}
+figcaption{
+	margin: 0 0 0 .75em;
+}
+
+	
+p	{
+	font:	1.0em;
+	margin: 1% 1% 1% 1.2%;
+}
+	
+#footer {
+	color: #000;
+	font: italic 1.25em;
+	margin-right: 6%;
+	text-align: right;
+	margin-bottom: 6%;
+}
+
+figure img {
+	border: .250em solid #0f0;
+	margin: 1% 1% 2% 2%;
+	
+}
+
+figure img:hover {
+	border: .250em solid #23004C;
+}
+
+#picture1{
+	background: #f3e2c7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f3e2c7 0%, #c19e67 88%, #b68d4c 100%, #e9d4b3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e2c7), color-stop(88%,#c19e67), color-stop(100%,#b68d4c), color-stop(100%,#e9d4b3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* W3C */
+	float: right;
+	margin: .625em .250em .375em .375em;
+	width: 40.0em;
+	border: .250em solid #665544;
+}
+
+#picture2{
+	float: right;
+	margin: .625em .250em .375em .375em;
+	width: 40.0em;
+	border: .250em solid #665544;
+	clear: right;
+	background: #f3e2c7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f3e2c7 0%, #c19e67 88%, #b68d4c 100%, #e9d4b3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e2c7), color-stop(88%,#c19e67), color-stop(100%,#b68d4c), color-stop(100%,#e9d4b3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* W3C */
+}
+#return{
+	
+	margin-bottom: 4%;
+	text-align: center;
+}
