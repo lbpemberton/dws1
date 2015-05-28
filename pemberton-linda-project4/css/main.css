@@ -1,0 +1,258 @@
+
+a:link  {
+	color: #f00;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00f;
+	
+}
+
+a:hover {
+	color: #00008b;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #f0f;
+	text-decoration: none;
+}
+
+
+
+body {
+		
+		background: url("../images/sand-blossom.gif");
+		font-family: Arial, Helvetica, sans-serif;
+		font: 1.0em;
+		min-width: 10%;
+		max-width: 95%;
+		max-height: 80%;
+		margin: 0;
+		padding: 5% 5% 5% 5%;
+			
+		
+}
+
+
+
+#main	{
+		font-family: Arial, Helvetica, sans-serif;
+		width: 90%;
+		height: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #e0ffff; 
+		border-radius: 5%;
+		background-image: url("../images/fish_green.png");
+		background-repeat: no-repeat;
+		background-position: 55% 30%;
+		background-size: 60%;
+		padding: 1% 2% 2% 2%;
+		background-attachment: fixed;
+		overflow: hidden;
+
+}
+
+#header {
+	margin-top: 8%;
+	padding: 20% 0 5% 0;
+}
+
+h1	{
+	margin:	3% 2% 3% 2%;
+	color:	#f00;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	text-shadow: .035em .035em 0 #000;
+	
+		
+}
+
+nav {
+		margin: 2% 3% 3% 2%;
+		width: 96%;
+		height: 10%;
+		background: url("../images/sand-blossom.gif");
+		background-repeat: repeat;
+		border-top: .500em double #f00;
+}
+
+
+nav ul {
+	font-size: 1.25em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-shadow: .500em .500em .500em #fff;
+	list-style-type: upper-roman;
+	color: #000;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+#column1of2{
+	float: left;
+	width: 50%;
+	min-width: 10%;
+	max-height: 90%;
+	overflow: hidden;
+	margin-left: 3%;
+	margin-right: 5%;
+}
+
+h2	{
+	
+	margin: 2% 1% 2% 1%;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	clear: left;
+	color: #f00;
+	 	
+	
+}
+         
+
+
+#desc {
+	
+	text-align: center;
+	font-weight: bold;
+	margin: 2% 1% 2% 1%;
+	
+	
+}
+blockquote	{
+	
+	font:	1.125em;
+	margin: 2% 1% 8% 1%;
+}
+
+
+		
+h3,h4 {
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 1%;
+	color: #f00;
+}
+	
+
+#picture1{
+	margin: 2% 1% 8% 1%;
+	border: .250em solid #665544;
+	background: #f3e2c7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f3e2c7 0%, #c19e67 88%, #b68d4c 100%, #e9d4b3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e2c7), color-stop(88%,#c19e67), color-stop(100%,#b68d4c), color-stop(100%,#e9d4b3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* W3C */
+	
+}
+#crabs {
+	font-family: Arial, Helvetica, sans-serif;	
+	margin-bottom: 2%;
+	text-align: center;
+	color: #000;
+	
+	
+}
+
+
+#picture2{
+	margin: 2% 1% 8% 1%;
+	border: .250em solid #665544;
+	background: #f3e2c7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f3e2c7 0%, #c19e67 88%, #b68d4c 100%, #e9d4b3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e2c7), color-stop(88%,#c19e67), color-stop(100%,#b68d4c), color-stop(100%,#e9d4b3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f3e2c7 0%,#c19e67 88%,#b68d4c 100%,#e9d4b3 100%); /* W3C */
+}
+#sushi {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-bottom: 2%;
+	color: #000;
+}
+
+figure img {
+	margin: 1% 1% 2% 2%;
+	width: 95%;
+	min-width: 30%;
+	overflow: auto;
+}
+	
+
+
+figure img:hover {
+	border: .250em solid #23004C;
+}
+
+figcaption{
+	background-image: url("../images/seashell-thumbnail.png");
+	background-size: 5%;
+	background-repeat: no-repeat;
+	text-align: right;
+	font: 1.85em;
+	
+}
+
+
+#fare {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font: 1.85em;
+	margin: 2% 1% 2% 1%;
+}
+p	{
+	
+	display: block;
+	margin: 2% 1% 2% 1%;
+}
+	
+	
+
+
+
+#column2of2{
+	float: left;
+	overflow: hidden;
+	max-width: 50%;
+	min-width: 20%;
+	max-height: 90%;
+	margin-left: 4%;
+	
+}
+
+#rest	{
+	
+	margin: 4% 1% 2% 1%;
+	overflow: auto;
+	
+	
+}
+ol	{
+	margin: 2% 1% 2% 1%;
+	
+}
+
+#return{
+	float: left;
+	clear: both;
+	text-align: center;
+	
+	
+}
+
+#footer {
+	float: left;
+	clear: both;
+	color: #000;
+	font: italic 1.25em;
+	margin-left: 6%;
+	text-align: left;
+	margin-bottom: 2%;
+}
